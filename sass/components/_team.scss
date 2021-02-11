@@ -1,0 +1,23 @@
+/* Team */
+.team {
+  padding: 60px 0;
+  background-color: $second-background-color;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+  }
+}
+
+.team-title {
+  margin-bottom: 30px;
+
+  font-weight: $bold-font-weight;
+  font-size: 28px;
+  line-height: $line-height-1-17;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: $font-size-36;
+  }
+}

@@ -1,0 +1,35 @@
+.close-contaiter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: 2px;
+}
+
+.close-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  padding: 0;
+
+  color: $logo-black-color;
+  background-color: $main-background-color;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+
+  @include transit;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+
+    @include transit;
+  }
+}
+
+.close-icon {
+  fill: currentColor;
+}

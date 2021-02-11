@@ -1,0 +1,31 @@
+/* Common logo */
+
+.logo {
+  font-family: $second-font-family;
+  font-weight: $bold-font-weight;
+  font-size: 24px;
+  line-height: 1.17;
+
+  color: $logo-black-color;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  &-web {
+    color: $accent-color;
+  }
+
+  &-studio {
+    color: $white-text-color;
+  }
+
+  &--footer {
+    display: flex;
+
+    @media screen and (max-width: 1199px) {
+      justify-content: center;
+    }
+  }
+}

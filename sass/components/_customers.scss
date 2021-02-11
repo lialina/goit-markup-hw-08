@@ -1,0 +1,124 @@
+/* Customers */
+.customers {
+  padding: 60px 0;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+  }
+}
+
+.customers-title {
+  margin-bottom: 30px;
+
+  font-weight: $bold-font-weight;
+  font-size: 28px;
+  line-height: $line-height-1-17;
+  text-align: center;
+
+  color: $first-text-color;
+}
+
+.customers-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.customers-item {
+  flex-basis: calc(100% / 2 - 30px);
+  margin: 15px;
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 3 - 30px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc(100% / 6 - 30px);
+  }
+}
+
+.customers-link.link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 90px;
+  color: $icon-inactive-color;
+  border: 1px solid $icon-inactive-color;
+  border-radius: 4px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  color: $accent-color;
+  border: 1px solid $accent-color;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-icon {
+  fill: currentColor;
+}
+
+// .customers {
+//   padding: 94px 0;
+
+//   &-title {
+//     margin-bottom: 50px;
+
+//     font-weight: $bold-font-weight;
+//     font-size: $font-size-36;
+//     line-height: $line-height-1-17;
+//     text-align: center;
+
+//     color: $first-text-color;
+//   }
+
+//   @media screen and (min-width: 1200px) {
+//     &-list {
+//       display: flex;
+//     }
+//   }
+
+//   &-link.link {
+//     display: inline-flex;
+//     align-items: center;
+//     justify-content: center;
+//     width: 170px;
+//     height: 90px;
+//     color: $icon-inactive-color;
+//     border: 1px solid $icon-inactive-color;
+//     border-radius: 4px;
+
+//     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   }
+
+//   &-link:hover,
+//   &-link:focus {
+//     color: $accent-color;
+//     border: 1px solid $accent-color;
+
+//     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   }
+
+//   &-item:not(:last-child) {
+//     margin-right: 30px;
+//   }
+
+//   &-icon {
+//     fill: currentColor;
+//   }
+// }

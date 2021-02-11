@@ -1,0 +1,14 @@
+/* Team */
+.team {
+  padding: 94px 0;
+  background-color: $second-background-color;
+
+  &-title {
+    margin-bottom: 50px;
+
+    font-weight: $bold-font-weight;
+    font-size: $font-size-36;
+    line-height: $line-height-1-17;
+    text-align: center;
+  }
+}

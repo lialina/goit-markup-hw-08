@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 767px) {
+    padding: 16px 15px 16px;
+  }
+
+  &-logo {
+    display: flex;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+      padding: 26px 0 26px;
+      margin-right: 88px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-right: 93px;
+    }
+  }
+
+  &-nav {
+    display: flex;
+  }
+
+  &--portfolio {
+    border-bottom: 1px solid #ececec;
+  }
+}

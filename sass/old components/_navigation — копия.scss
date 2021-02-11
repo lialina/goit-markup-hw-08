@@ -1,0 +1,94 @@
+/* Common nav */
+.nav {
+  display: flex;
+  margin-right: 305px;
+
+  &-link {
+    display: block;
+    padding: 32px 0;
+
+    font-weight: $medium-font-weight;
+    font-size: $font-size-14;
+    line-height: $line-height-1-14;
+    letter-spacing: 0.02em;
+
+    color: inherit;
+    @include transit;
+  }
+
+  &-item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  &-link:hover,
+  &-link:focus {
+    color: $accent-color;
+    @include transit;
+  }
+
+  &-link--current.link {
+    position: relative;
+    color: $accent-color;
+  }
+
+  &-link--inactive {
+    position: relative;
+  }
+
+  &-link--current::after,
+  &-link--inactive::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: $accent-color;
+    border-radius: 2px;
+  }
+
+  &-link--inactive::after {
+    opacity: 0;
+    @include transit(opacity);
+  }
+
+  &-link--inactive:hover::after,
+  &-link--inactive:focus::after {
+    opacity: 1;
+    @include transit(opacity);
+  }
+}
+
+.contacts {
+  display: inline-flex;
+  align-items: center;
+
+  &-item--position {
+    margin-right: 30px;
+  }
+
+  &-link {
+    display: inline-flex;
+    align-items: center;
+
+    font-weight: $medium-font-weight;
+    font-size: $font-size-14;
+    line-height: $line-height-1-14;
+    letter-spacing: 0.02em;
+
+    color: $second-text-color;
+
+    @include transit;
+  }
+
+  &-link:hover,
+  &-link:focus {
+    color: $accent-color;
+    @include transit;
+  }
+
+  &-icon {
+    margin-right: 10px;
+    fill: currentColor;
+  }
+}
