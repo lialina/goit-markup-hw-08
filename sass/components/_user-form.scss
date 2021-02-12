@@ -3,6 +3,11 @@
   margin-left: auto;
   margin-right: auto;
 
+  @media screen and (max-width: 767px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
   &__field {
     display: flex;
     flex-direction: column;
@@ -25,8 +30,15 @@
 
   &__input {
     height: 40px;
-    width: 448px;
     padding: 12px 12px 12px 42px;
+
+    @media screen and (max-width: 767px) {
+      width: 370px;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 448px;
+    }
   }
 
   &__comment {
@@ -34,7 +46,14 @@
     display: block;
     resize: none;
     height: 120px;
-    width: 448px;
+
+    @media screen and (max-width: 767px) {
+      width: 370px;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 448px;
+    }
   }
 
   &__comment::placeholder {
