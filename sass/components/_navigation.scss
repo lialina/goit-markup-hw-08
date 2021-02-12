@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (min-width: 768px) {
     margin-right: 84px;
   }
 
@@ -132,4 +132,30 @@
     margin-right: 10px;
     fill: currentColor;
   }
+}
+
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+
+  margin-left: 276px;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.menu-button__icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .menu-button__icon-cross {
+  display: block;
+}
+
+.menu-button.is-open .menu-button__icon-menu {
+  display: none;
 }

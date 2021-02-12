@@ -462,7 +462,7 @@ ul {
 
 @media screen and (max-width: 767px) {
   .header {
-    padding: 16px 15px 16px;
+    padding: 10px 15px 10px;
   }
 }
 
@@ -508,7 +508,7 @@ ul {
           align-items: center;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .nav {
     margin-right: 84px;
   }
@@ -654,6 +654,35 @@ ul {
 .contacts-icon {
   margin-right: 10px;
   fill: currentColor;
+}
+
+.menu-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  margin-left: 276px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+
+.menu-button__icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .menu-button__icon-cross {
+  display: block;
+}
+
+.menu-button.is-open .menu-button__icon-menu {
+  display: none;
 }
 
 /* Hero */
@@ -1940,5 +1969,18 @@ ul {
   border-color: #2196f3;
   border-radius: 4px;
   border-style: none;
+}
+
+.mobile {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
