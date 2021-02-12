@@ -39,7 +39,7 @@
             </ul>
 
             <button type="button" 
-                class="menu-button is-open" 
+                class="menu-button" 
                 aria-expanded="false" 
                 data-menu-button>
                 <svg class="menu-button__svg" width="40px" height="40px" 
@@ -50,7 +50,7 @@
             </button>
         </div>
 
-        <div class="mobile-container">
+        <div class="mobile-container" data-menu>
             <nav class="mobile-nav">
                 <ul class="list mobile-nav__list">
                     <li class="mobile-nav__item"><a class="link mobile-nav__link mobile-nav__link--current" href="./index.html">Студия</a></li>
@@ -463,15 +463,17 @@
                         <span class="label-text">Подпишитесь на рассылку</span>
                         <input class="label-input" type="email" name="user_email" placeholder="E-mail" />
                     </label>
-                </div>
-            </form>
-            <div>
+                
                 <button type="submit" class="subscribe-button">
                     Подписаться
                     <svg class="subscribe-icon" width="24px" height="24px">
                         <use href="./images/sprite.svg#icon-send"></use>
                     </svg>
                 </button>
+                </div>
+            </form>
+            <div>
+                
             </div>
             
         </div>
@@ -552,5 +554,6 @@
     </footer>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>

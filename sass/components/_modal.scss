@@ -5,10 +5,9 @@
   max-width: 450px;
   padding-bottom: 40px;
 
-  top: 50%;
   left: 50%;
 
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, 0) scale(1);
   @include transit(transform);
 
   @media screen and (min-width: 480px) {
@@ -19,10 +18,10 @@
     position: absolute;
     width: 528px;
     max-width: 528px;
-    top: 50%;
+
     left: 50%;
 
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, 0) scale(1);
 
     @include transit(transform);
   }

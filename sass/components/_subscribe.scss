@@ -1,20 +1,24 @@
 // /* Subscribe in the footer */
 .subscribe-field {
   display: inline-flex;
-  flex-direction: column;
+
+  width: 100%;
 
   @media screen and (max-width: 1199px) {
-    margin-bottom: 20px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    padding-top: 72px;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
 .label-text {
   display: block;
   padding-bottom: 20px;
+}
+
+.subscribe-label {
+  @media screen and (min-width: 1200px) {
+    margin-top: 72px;
+  }
 }
 
 .label-input {
@@ -34,7 +38,8 @@
   }
 
   @media screen and (max-width: 1199px) {
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -43,13 +48,18 @@
 }
 
 .subscribe-button {
-  display: flex;
+  display: inline-flex;
+
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 200px;
 
   @media screen and (max-width: 1199px) {
-    margin: 0 auto 60px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media screen and (min-width: 1200px) {
