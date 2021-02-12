@@ -1,0 +1,50 @@
+.mobile-container {
+  padding-top: 48px;
+  padding-left: 40px;
+  // position: fixed;
+  // display: flex;
+  // flex-direction: column;
+  // top: 0;
+  // left: 0;
+  // width: 100%;
+  // height: 90%;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
+  background-color: $main-background-color;
+}
+
+.mobile-nav__list {
+  margin-bottom: 302px;
+}
+
+.mobile-nav__link {
+  font-weight: $medium-font-weight;
+  font-size: 40px;
+  line-height: 1.18;
+
+  letter-spacing: 0.02em;
+
+  color: $first-text-color;
+}
+
+.mobile-nav__item:not(:last-child) {
+  margin-bottom: 37.71px;
+}
+
+.mobile-nav__link--current {
+  color: $accent-color;
+}
+
+.mobile-contacts__link {
+}
+
+.mobile-contacts__link--tel {
+  font-weight: $medium-font-weight;
+  font-size: 34px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  color: $accent-color;
+}

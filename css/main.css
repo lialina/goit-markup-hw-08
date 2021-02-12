@@ -1971,16 +1971,43 @@ ul {
   border-style: none;
 }
 
-.mobile {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
+.mobile-container {
+  padding-top: 48px;
+  padding-left: 40px;
+  background-color: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
-  .mobile {
+  .mobile-container {
     display: none;
   }
+}
+
+.mobile-nav__list {
+  margin-bottom: 302px;
+}
+
+.mobile-nav__link {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.mobile-nav__item:not(:last-child) {
+  margin-bottom: 37.71px;
+}
+
+.mobile-nav__link--current {
+  color: #2196f3;
+}
+
+.mobile-contacts__link--tel {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  color: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */
