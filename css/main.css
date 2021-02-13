@@ -1031,6 +1031,7 @@ ul {
 }
 
 .workers-name {
+  padding-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -1147,6 +1148,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: auto;
   height: 90px;
   color: #afb1b8;
   border: 1px solid #afb1b8;
@@ -1274,6 +1276,7 @@ ul {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: -15px;
+    z-index: -1;
   }
 }
 
