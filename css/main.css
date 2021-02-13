@@ -664,7 +664,7 @@ ul {
   padding: 0;
   border: none;
   background-color: transparent;
-  margin-left: 276px;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -1030,12 +1030,6 @@ ul {
   }
 }
 
-.workers-item-img {
-  display: block;
-  min-width: 100%;
-  height: auto;
-}
-
 .workers-name {
   margin-bottom: 10px;
   font-weight: 500;
@@ -1153,7 +1147,6 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 210px;
   height: 90px;
   color: #afb1b8;
   border: 1px solid #afb1b8;
