@@ -32,9 +32,6 @@
     @include transit;
   }
 
-  &-item {
-  }
-
   @media screen and (min-width: 768px) {
     &-item:not(:last-child) {
       margin-right: 50px;
