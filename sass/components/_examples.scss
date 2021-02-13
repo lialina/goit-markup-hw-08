@@ -52,15 +52,16 @@
 
   &-thumb img {
     display: block;
-    width: 450px;
+    padding: 0;
+    // width: 450px;
 
-    @media screen and (min-width: 768px) {
-      width: 354px;
-    }
+    // @media screen and (min-width: 768px) {
+    //   width: 354px;
+    // }
 
-    @media screen and (min-width: 1200px) {
-      width: 370px;
-    }
+    // @media screen and (min-width: 1200px) {
+    //   width: 370px;
+    // }
   }
 
   &-overlay {

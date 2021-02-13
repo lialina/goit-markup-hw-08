@@ -1,3 +1,12 @@
 @mixin transit($type: color) {
   transition: $type $animation-time $animation-function;
 }
+
+@mixin heroBgImage($url) {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(#{$url});
+}

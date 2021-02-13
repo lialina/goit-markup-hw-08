@@ -148,10 +148,14 @@
                 <ul class="list specialty-list">
                     <li class="specialty-item">
                         <div class="specialty-thumb">
-                            <img class="specialty-img" src="./images/occupation1.jpg" 
-                            alt="Верстка веб-страниц"
-                            width="370"
-                            />
+                            
+                            <picture>
+                                <source srcset="./images/occupations/occupation1-370-294@1x.jpg 1x,
+                                    ./images/occupations/occupation1-740-588@2x.jpg 2x" type="image/jpeg" />
+                                <img class="specialty-img" src="./images/occupations/occupation1-370-294@1x.jpg" 
+                                alt="Верстка веб-страниц" />
+                            </picture>
+
                             <div class="specialty-div">
                                 <h3 class="specialty-subtitle">
                                     Десктопные приложения
@@ -161,10 +165,14 @@
                     </li>
                     <li class="specialty-item">
                         <div class="specialty-thumb">
-                            <img class="specialty-img" src="./images/occupation2.jpg" 
-                            alt="Создание пользовательского интерфейса"
-                            width="370"
-                            />
+                            
+                            <picture>
+                                <source srcset="./images/occupations/occupation2-370-294@1x.jpg 1x,
+                                    ./images/occupations/occupation2-740-588@2x.jpg 2x" type="image/jpeg" />
+                                <img class="specialty-img" src="./images/occupations/occupation2-370-294@1x.jpg" 
+                                alt="Создание пользовательского интерфейса" />
+                            </picture>
+
                             <div class="specialty-div">
                                 <h3 class="specialty-subtitle">
                                     Мобильные приложения
@@ -174,10 +182,14 @@
                     </li>
                     <li class="specialty-item">
                         <div class="specialty-thumb">
-                            <img  class="specialty-img" src="./images/occupation3.jpg" 
-                            alt="Подбор цветовой палитры"
-                            width="370"
-                            />
+
+                            <picture>
+                                <source srcset="./images/occupations/occupation3-370-294@1x.jpg 1x,
+                                    ./images/occupations/occupation3-740-588@2x.jpg 2x" type="image/jpeg" />
+                                <img class="specialty-img" src="./images/occupations/occupation3-370-294@1x.jpg"
+                                    alt="Подбор цветовой палитры" />
+                            </picture>
+
                             <div class="specialty-div">
                                 <h3 class="specialty-subtitle">
                                     Дизайнерские решения
@@ -195,9 +207,25 @@
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="list workers">
                     <li class="workers-item">
-                        <img class="workers-img" src="./images/worker1.jpg" 
-                        alt="Фото члена команды номер 1" />
-                        <!-- width="270" -->
+                        
+                        <picture>
+                            <source 
+                                srcset="./images/team/worker1-450-460@1x.jpg 1x,
+                                ./images/team/worker1-900-920@2x.jpg 2x" 
+                                media="(max-width: 767px)" 
+                                type="image/jpeg" />
+                            <source 
+                                srcset="./images/team/worker1-354-374@1x.jpg 1x,
+                                ./images/team/worker1-708-748@2x.jpg 2x" 
+                                media="(max-width: 1199px)" 
+                                type="image/jpeg" />
+                            <source 
+                                srcset="./images/team/worker1-270-260@1x.jpg 1x,
+                                ./images/team/worker1-540-520@2x.jpg 2x" 
+                                type="image/jpeg" />
+                            <img class="workers-img" src="./images/team/worker1-450-460@1x.jpg" 
+                            alt="Фото члена команды номер 1" />
+                        </picture>
                         
                         <h3 class="workers-name">Игорь Демьяненко</h3>
                         <p class="workers-text">Product Designer</p>
@@ -231,10 +259,21 @@
                                 </a>
                             </li>
                         </ul>
+                        
                     </li>
                     <li class="workers-item">
-                        <img class="workers-img" src="./images/worker2.jpg" 
-                        alt="Фото члена команды номер 2" />
+                        <picture>
+                            <source srcset="./images/team/worker2-450-460@1x.jpg 1x,
+                                ./images/team/worker2-900-920@2x.jpg 2x" media="(max-width: 767px)"
+                                type="image/jpeg" />
+                            <source srcset="./images/team/worker2-354-374@1x.jpg 1x,
+                                ./images/team/worker2-708-748@2x.jpg 2x" media="(max-width: 1199px)"
+                                type="image/jpeg" />
+                            <source srcset="./images/team/worker2-270-260@1x.jpg 1x,
+                                ./images/team/worker2-540-520@2x.jpg 2x" type="image/jpeg" />
+                            <img class="workers-img" src="./images/team/worker2-450-460@1x.jpg" alt="Фото члена команды номер 2" />
+                        </picture>
+
                         <h3 class="workers-name">Ольга Репина</h3>
                         <p class="workers-text">Frontend Developer</p>
                         <ul class="list social">
@@ -269,8 +308,18 @@
                         </ul>
                     </li>
                     <li class="workers-item">
-                        <img class="workers-img" src="./images/worker3.jpg" 
-                        alt="Фото члена команды номер 3" />
+                        <picture>
+                            <source srcset="./images/team/worker3-450-460@1x.jpg 1x,
+                                ./images/team/worker3-900-920@2x.jpg 2x"
+                                media="(max-width: 767px)" type="image/jpeg" />
+                            <source srcset="./images/team/worker3-354-374@1x.jpg 1x,
+                                ./images/team/worker3-708-748@2x.jpg 2x"
+                                media="(max-width: 1199px)" type="image/jpeg" />
+                            <source srcset="./images/team/worker3-270-260@1x.jpg 1x,
+                                ./images/team/worker3-540-520@2x.jpg 2x" type="image/jpeg" />
+                            <img class="workers-img" src="./images/team/worker3-450-460@1x.jpg" alt="Фото члена команды номер 3" />
+                        </picture>
+
                         <h3 class="workers-name">Николай Тарасов</h3>
                         <p class="workers-text">Marketing</p>
                         <ul class="list social">
@@ -305,8 +354,18 @@
                         </ul>
                     </li>
                     <li class="workers-item"> 
-                        <img class="workers-img" src="./images/worker4.jpg" 
-                        alt="Фото члена команды номер 4" />
+                        <picture>
+                            <source srcset="./images/team/worker4-450-460@1x.jpg 1x,
+                                ./images/team/worker4-900-920@2x.jpg 2x" media="(max-width: 767px)"
+                                type="image/jpeg" />
+                            <source srcset="./images/team/worker4-354-374@1x.jpg 1x,
+                                ./images/team/worker4-708-748@2x.jpg 2x" media="(max-width: 1199px)"
+                                type="image/jpeg" />
+                            <source srcset="./images/team/worker4-270-260@1x.jpg 1x,
+                                ./images/team/worker4-540-520@2x.jpg 2x" type="image/jpeg" />
+                            <img class="workers-img" src="./images/team/worker4-450-460@1x.jpg" alt="Фото члена команды номер 4" />
+                        </picture>
+
                         <h3 class="workers-name">Михаил Ермаков</h3>
                         <p class="workers-text">UI Designer</p>
                         <ul class="list social">
