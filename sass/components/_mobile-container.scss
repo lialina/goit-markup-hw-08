@@ -2,6 +2,7 @@
   padding-top: 48px;
   padding-left: 40px;
   padding-bottom: 48px;
+  padding-right: 40px;
   letter-spacing: 0.02em;
   position: fixed;
   display: flex;
@@ -84,7 +85,7 @@
 
 .mobile-contacts__link--tel {
   font-weight: $medium-font-weight;
-  font-size: 34px;
+  font-size: calc(24px + (34 - 24) * (100vw - 300px) / (380 - 300));
   line-height: 1.18;
   color: $accent-color;
 }
@@ -102,7 +103,7 @@
 
 .mobile-social__link.link {
   font-weight: $medium-font-weight;
-  font-size: 18px;
+  font-size: calc(9px + (18 - 9) * (100vw - 300px) / (440 - 300));
   line-height: 1.22;
 
   color: $accent-color;
