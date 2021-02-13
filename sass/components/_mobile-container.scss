@@ -1,8 +1,5 @@
 .mobile-container {
-  padding-top: 48px;
-  padding-left: 40px;
-  padding-bottom: 48px;
-  padding-right: 40px;
+  padding: 48px 40px;
   letter-spacing: 0.02em;
   position: fixed;
   display: flex;
@@ -13,11 +10,11 @@
   height: 100%;
   z-index: 1;
 
+  background-color: $main-background-color;
+
   @media screen and (min-width: 768px) {
     display: none;
   }
-
-  background-color: $main-background-color;
 }
 
 .menu-button {

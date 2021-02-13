@@ -2084,10 +2084,7 @@ ul {
 }
 
 .mobile-container {
-  padding-top: 48px;
-  padding-left: 40px;
-  padding-bottom: 48px;
-  padding-right: 40px;
+  padding: 48px 40px;
   letter-spacing: 0.02em;
   position: fixed;
   display: -webkit-box;
