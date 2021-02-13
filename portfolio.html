@@ -38,7 +38,7 @@
                 </li>
             </ul>
 
-            <button type="button" class="menu-button is-open" aria-expanded="false" data-menu-button>
+            <button type="button" class="menu-button" aria-expanded="false" data-menu-button>
                 <svg class="menu-button__svg" width="40px" height="40px" aria-label="Переключатель мобильного меню">
                     <use class="menu-button__icon-menu" href="./images/sprite.svg#icon-menu"></use>
                     <use class="menu-button__icon-cross" href="./images/sprite.svg#icon-cross"></use>
@@ -46,7 +46,7 @@
             </button>
         </div>
 
-        <div class="mobile-container">
+        <div class="mobile-container" data-menu>
             <nav class="mobile-nav">
                 <ul class="list mobile-nav__list">
                     <li class="mobile-nav__item"><a class="link mobile-nav__link mobile-nav__link--inactive"
@@ -466,5 +466,7 @@
 
         </div>
     </footer>
+
+    <script src="./js/menu.js"></script>
 </body>
 </html>
