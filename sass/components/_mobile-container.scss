@@ -19,6 +19,13 @@
   }
 }
 
+.mobile-container {
+  display: none;
+}
+
+.mobile-container.is-open {
+  display: flex;
+}
 .menu-button {
   color: $logo-black-color;
   @include transit;
@@ -37,14 +44,6 @@
 .menu-button__icon-menu,
 .menu-button__icon-cross {
   fill: currentColor;
-}
-
-.mobile-container {
-  display: none;
-}
-
-.mobile-container.is-open {
-  display: flex;
 }
 
 .mobile-nav__list {

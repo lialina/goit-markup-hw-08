@@ -2104,6 +2104,16 @@ ul {
   }
 }
 
+.mobile-container {
+  display: none;
+}
+
+.mobile-container.is-open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .menu-button {
   color: #000000;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -2124,16 +2134,6 @@ ul {
 .menu-button__icon-menu,
 .menu-button__icon-cross {
   fill: currentColor;
-}
-
-.mobile-container {
-  display: none;
-}
-
-.mobile-container.is-open {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .mobile-nav__link {
