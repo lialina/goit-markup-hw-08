@@ -44,11 +44,11 @@
 }
 
 .mobile-container.is-open {
-  display: block;
+  display: flex;
 }
 
 .mobile-nav__list {
-  margin-bottom: 302px;
+  // margin-bottom: 302px;
 }
 
 .mobile-nav__link {

@@ -2131,11 +2131,9 @@ ul {
 }
 
 .mobile-container.is-open {
-  display: block;
-}
-
-.mobile-nav__list {
-  margin-bottom: 302px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .mobile-nav__link {
