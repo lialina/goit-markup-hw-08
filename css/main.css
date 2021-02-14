@@ -290,6 +290,10 @@ body {
   background-color: #ffffff;
 }
 
+body.menu-open {
+  overflow: hidden;
+}
+
 .list {
   list-style: none;
 }
@@ -679,6 +683,9 @@ ul {
 
 .menu-button.is-open .menu-button__icon-cross {
   display: block;
+  position: fixed;
+  top: 10px;
+  right: 15px;
 }
 
 .menu-button.is-open .menu-button__icon-menu {

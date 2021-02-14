@@ -18,6 +18,10 @@ body {
   background-color: $main-background-color;
 }
 
+body.menu-open {
+  overflow: hidden;
+}
+
 .list {
   list-style: none;
 }
