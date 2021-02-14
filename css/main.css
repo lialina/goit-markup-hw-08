@@ -2086,9 +2086,13 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   top: 0;
   left: 0;
   width: 100%;
+  min-height: 100vh;
   height: 100%;
   z-index: 1;
   background-color: #ffffff;
