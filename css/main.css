@@ -2182,6 +2182,12 @@ ul {
   color: #2196f3;
 }
 
+@media screen and (min-width: 380px) and (max-width: 768px) {
+  .mobile-contacts__link--tel {
+    font-size: 34px;
+  }
+}
+
 .mobile-contacts__link--mail {
   font-weight: 500;
   font-size: 24px;
@@ -2200,6 +2206,12 @@ ul {
   font-size: calc(9px + (18 - 9) * (100vw - 300px) / (440 - 300));
   line-height: 1.22;
   color: #2196f3;
+}
+
+@media screen and (min-width: 380px) and (max-width: 768px) {
+  .mobile-social__link.link {
+    font-size: 18px;
+  }
 }
 
 .mobile-social__item {
