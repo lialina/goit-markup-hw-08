@@ -84,7 +84,7 @@
 
 .mobile-contacts__link--tel {
   font-weight: $medium-font-weight;
-  font-size: 34px;
+  font-size: calc(17px + (34 - 17) * (100vw - 300px) / (440 - 300));
   line-height: 1.18;
   color: $accent-color;
 }
